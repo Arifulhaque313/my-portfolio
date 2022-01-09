@@ -68,3 +68,126 @@ body{
     
 }
 
+
+.third-section{
+    display: flex;
+    margin-bottom:;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    padding: 30px 80px;
+    
+}
+.experience h1{
+    font-size: 55px
+}
+
+.third-section h1{
+    font-size: 40px;
+
+}
+
+.ex-left{
+    border-left: 8px solid ;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+    padding:10px 40px 60px 60px;
+    box-shadow: 5px  7px 40px gray;
+    margin: 0px 30px;
+    border-radius: 10px;
+}
+.ex-left h1{
+    padding: 50px 0px;
+}
+
+.ex-right h1{
+    padding: 50px 0px;
+}
+
+.ex-left h3{
+    color: orange;
+}
+.ex-right h3{
+    color: orange;
+}
+
+.third-section p{
+    color: grey;
+}
+
+.ex-right{
+    margin: 0px 30px;
+    border-left: 8px solid ;
+    border-image: linear-gradient(blue,rgb(0, 195, 255));
+    border-image-slice: 1;
+    padding:10px 40px 60px 60px;
+    box-shadow: 5px  7px 40px gray;
+    border-radius: 10px;
+}
+
+footer{
+    padding: 30px 0px;
+    
+}
+
+
+@media only screen and (max-width: 980px){
+    body{
+        margin: 0;
+        padding: 0px;
+    }
+
+    .first-section{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .half{
+        width: 90%;
+
+    }
+
+    .first-section-left{
+        margin: 0px 30px;
+    }
+
+    .first-section-left h1{
+        font-size: 30px;
+        padding:0px;
+
+    }
+    .first-section-left h3{
+        font-size: 17px;
+
+    }
+    .first-section-left p{
+        font-size: 14px;
+    }
+
+
+    .second-section{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+.experience h1{
+    font-size: 40px;
+    padding: 40px;
+}
+
+    .third-section{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .third-section h1{
+        font-size: 30px;
+        padding: 0;
+    }
+    .ex-right{
+        margin-top: 30px;
+    }
+
+
+}
